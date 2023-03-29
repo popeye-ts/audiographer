@@ -1,0 +1,78 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+h2,p{
+    font-weight: bold;
+}
+.box{
+    width: 500px;
+    height: 350px;
+    /* border: 1px solid gray; */
+    /* border-radius: 20px; */
+    margin: auto;
+    background-color: rgb(197, 197, 197);
+}
+.left-btns{
+    margin-top: 12px;
+}
+.file-btn{
+    background-color: rgb(197, 197, 197);
+    padding: 10px;
+    border-radius: 15px;
+    height: 40px;
+    font-weight: bold;
+    
+    /* margin-top:5; */
+}
+.file-btn:hover{
+    cursor: pointer;
+    background-color: white;
+    transition: ease-in 0.1s;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.a-btn{
+    background-color:rgb(197, 197, 197) ;
+    color: black;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+input[type="file"]{
+    display: none;
+}
+.hero{
+    margin: auto;
+    text-align: center;
+}
+.action-btn button{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.footer{
+	position: fixed;
+    bottom: 0px;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+
+@media only screen and (max-width: 768px){
+    .box{
+        max-width: 90vw;
+    }
+    .file-btn, .a-btn{
+        height: 30px;
+        line-height: 10px;
+        /* width: 50%; */
+        font-weight: bold;
+        font-size: 10px;
+        
+        /* margin-top:5; */
+    }
+
+}
