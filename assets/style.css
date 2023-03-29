@@ -14,7 +14,7 @@ h2,p{
     background-color: rgb(197, 197, 197);
 }
 .left-btns{
-    margin-top: 12px;
+    margin-top: 16px;
 }
 .file-btn{
     background-color: rgb(197, 197, 197);
@@ -54,7 +54,7 @@ input[type="file"]{
     height: 50px;
 }
 .footer{
-	position: fixed;
+	position: static;
     bottom: 0px;
     background-color: black;
     width: 100%;
