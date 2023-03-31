@@ -1,0 +1,33 @@
+body{
+    font-family: 'Cabin', sans-serif;
+}
+.log-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 150px;
+    background-color: rgb(239, 239, 239);
+    width: 500px;
+    height: 400px;
+}
+
+.login-input{
+    border: none;
+    background-color: rgb(197, 197, 197);
+    border-radius: 20px;
+    margin-left: 20px;
+    /* font-weight: bold; */
+    text-align: center;
+}
+.login-input:focus{
+    outline: none;
+}
+.para{
+    font-size: 12px;
+    font-weight: bold;
+}
+.params{
+    font-weight: bold;
+    text-align: left;
+}

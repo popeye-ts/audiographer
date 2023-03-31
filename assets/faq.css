@@ -1,0 +1,64 @@
+body{
+    font-family: 'Cabin', sans-serif;
+}
+.navbar-link{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.nav-action-btn{
+    background-color: white;
+    border: none;
+    width: 100px;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.footer{
+	position: absolute;
+    /* margin: auto; */
+    /* display: block; */
+    bottom: 0px;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    border-radius: 0px 0px 20px 20px;
+}
+.log-in{
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(239, 239, 239);
+    width: 550px;
+    height: 550px;
+    border-radius: 20px;
+    position: relative;
+}
+.faqs{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    margin:  35px auto;
+    border-radius: 20px;
+}
+.faqs h6, .faqs p{
+    font-weight: bold;
+}
+.faqs p{
+    font-size: 12px;
+}
+.footer-action-btn{
+    text-decoration: none;
+    background-color: white;
+    padding: 7px;
+    font-weight: bold;
+    border-radius: 20px;
+    color: black;
+    font-size: 12px;
+}
+.footer-para{
+    font-size: 12px;
+    text-align: center;
+}
