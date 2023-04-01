@@ -17,30 +17,34 @@ body{
 }
 .footer{
 	position: absolute;
-    /* margin: auto; */
-    /* display: block; */
-    bottom: 0px;
+    right: 0px;
     background-color: black;
     width: 100%;
-    height: 50px;
-    position: absolute;
+    margin: auto;
+    height: 70px;
+    padding: 15px 0px;
+    /* position: absolute; */
     border-radius: 0px 0px 20px 20px;
 }
 .log-in{
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
     background-color: rgb(239, 239, 239);
     width: 550px;
-    height: 550px;
+    height: 480px;
     border-radius: 20px;
-    position: relative;
+    /* position: relative; */
+}
+.faq-heading{
+    padding: 20px 0px;
+    font-weight: bold;
 }
 .faqs{
     position: relative;
-    width: 400px;
-    height: 450px;
+    width: 415px;
+    height: 415;
     background-color: white;
-    margin:  35px auto;
+    margin:  20px auto;
     border-radius: 20px;
 }
 .faqs h6, .faqs p{
