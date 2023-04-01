@@ -10,6 +10,7 @@ body{
     background-color: rgb(239, 239, 239);
     width: 500px;
     height: 400px;
+    border-radius: 20px;
 }
 
 .login-input{
@@ -30,4 +31,15 @@ body{
 .params{
     font-weight: bold;
     text-align: left;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.login-para{
+    font-size: 12px;
+    /* margin: 15px 15px; */
+    margin-left: 60px;
+    margin-top: 20px;
+    font-weight: bold;
 }

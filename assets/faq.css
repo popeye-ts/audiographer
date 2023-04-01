@@ -1,19 +1,27 @@
 body{
     font-family: 'Cabin', sans-serif;
 }
+.navbar{
+    height: 70px;
+    width: 100%;
+}
 .navbar-link{
     text-decoration: none;
     color: white;
     font-size: 12px;
+    margin: 34px 10px !important;
 }
 .nav-action-btn{
     background-color: white;
     border: none;
-    width: 100px;
+    width: 80px;
     border-radius: 20px;
     margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 12px;
     font-weight: bold;
+    /* line-height: 20px; */
+    /* margin: 20px 10px; */
 }
 .footer{
 	position: absolute;
@@ -65,4 +73,11 @@ body{
 .footer-para{
     font-size: 12px;
     text-align: center;
+    font-weight: normal !important;
+}
+
+@media screen  and (max-width: 760px) {
+    .log-in{
+        width: 500px;
+    }
 }
